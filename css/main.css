@@ -1,0 +1,118 @@
+/* Reset */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #ccc; }
+body, input, textarea, button { font: 16px Tahoma, sans-serif; color: #333; }
+h1, h2, h3 { font-weight: normal; }
+h1 { margin-bottom: 20px; }
+p { line-height: 1.4; margin-bottom: 10px; }
+p:last-of-type { margin-bottom: 0; }
+a { text-decoration: none; color: #8892BF; }
+a:hover { color: #333; }
+
+form { margin: 20px 0; }
+input, textarea { width: 100%; padding: 10px; border: 3px solid #ccc; }
+input:focus, textarea:focus { outline: 0; border: 3px solid #8892BF; }
+textarea { max-width: 660px; height: 200px; }
+button { padding: 10px 20px; outline: 0; border: 3px solid #8892BF; background: #fff; color: #8892BF; }
+button:hover { background: #8892BF; color: #fff; cursor: pointer; }
+
+/* Rules */
+.white { background: #fff; }
+img.photo { margin-bottom: 10px; }
+p.date { color: #999; }
+
+
+
+/* Main */
+#wrapper {
+    width: 990px;
+    margin: 0 auto;
+}
+#header {
+    height: 138px;
+    margin-bottom: 20px;
+    background: url(../img/header.jpg) no-repeat;
+}
+#container {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+#side {
+    float: left;
+    width: 270px;
+}
+#content {
+    margin-left: 290px;
+    width: 700px;
+    padding: 20px;
+}
+#footer {
+    padding: 0 0 20px;
+    color: #999;
+}
+
+
+
+/* Menu */
+.nav { }
+.nav h3 {
+    padding: 15px 20px;
+    background: #8892BF;
+    color: #fff;
+}
+.nav ul { }
+.nav ul li { }
+.nav ul li a {
+    display: block;
+    padding: 15px 20px;
+    border-bottom: 1px solid #f1f1f1;
+}
+.nav ul li a.active {
+    color: #333;
+}
+
+
+
+/* News */
+.news { margin-top: 10px; }
+.news .item {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px 0;
+    overflow: hidden;
+}
+.news .item:last-of-type {
+    margin-bottom: 0;
+}
+.news .item .photo {
+    width: 130px;
+    height: 130px;
+    float: left;
+    background-repeat: no-repeat;
+}
+.news .item .info {
+    margin-left: 140px;
+    width: 520px;
+}
+.news .item .info .heading {
+    margin-bottom: 10px;
+}
+.news .item .info .heading a {
+    font-size: 20px;
+}
+.news .item .info .date {
+    margin-bottom: 10px;
+    color: #999;
+}
+.news .item .info .descr {
+    overflow: hidden;
+}
+
+
+
+/* Pagination */
+.pagination { text-align: center; }
+.pagination a.pn { display: inline-block; padding: 10px 15px; background: #8892BF; color: #fff; margin: 0 5px; }
+.pagination a.pn:hover { background: #333; }
+.pagination a.pn.active { background: #ccc; color: #333; }

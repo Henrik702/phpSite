@@ -1,0 +1,8 @@
+# Charset
+AddDefaultCharset 'utf-8'
+
+# Time Zone
+php_value date.timezone 'Asia/Yerevan'
+
+# mbstring
+php_value mbstring.internal_encoding 'utf-8'
