@@ -1,0 +1,3 @@
+         Text - lipsum.com
+jquery.min.js - developers.google.com/speed/libraries
+  Google Maps - google.com/maps

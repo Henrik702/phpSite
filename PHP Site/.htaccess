@@ -1,0 +1,5 @@
+# Charset
+AddDefaultCharset utf-8
+
+# Time Zone
+php_value date.timezone 'Asia/Yerevan'
